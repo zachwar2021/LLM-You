@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Gains Gym</title>
+    <style>
+        /* CSS styles for the web page */
+        body {
+            background-image: url("gym-background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        .membership {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        form input[type="text"], form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Max Gains Gym</h1>
+            <p>Get fit and stay healthy with our state-of-the-art facilities and expert trainers.</p>
+        </section>
+
+        <section id="products">
+            <h2>Supplements Products</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Description of Product 1</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <p>Description of Product 2</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Max Gains Gym</h2>
+            <div class="membership">
+                <div>
+                    <h3>Membership Prices</h3>
+                    <ul>
+                        <li>Basic Membership: $50/month</li>
+                        <li>Premium Membership: $80/month</li>
+                        <li>Platinum Membership: $100/month</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Products</h3>
+                    <ul>
+                        <li>Protein Powder: $30</li>
+                        <li>Pre-Workout Supplement: $40</li>
+                        <li>BCAA: $25</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Max Gains Gym. All rights reserved.</p>
+    </footer>
+
+    <section>
+        <form>
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="text" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <script>
+        // JavaScript code can be added here if needed
+    </script>
+</body>
+</html>
